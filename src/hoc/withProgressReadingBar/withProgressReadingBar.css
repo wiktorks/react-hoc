@@ -1,0 +1,16 @@
+.progress-wrapper {
+    position: relative;
+    display: inline-block;
+    max-height: 50vh;
+    overflow: auto;
+    padding-right: 16px;
+}
+
+.progress-wrapper .progress-bar {
+    position: sticky;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background-color: #00aeff;
+    width: 100%;
+}
